@@ -1,0 +1,7 @@
+listagem = ('Pão', 1, 'Leite', 3.50, 'Frango', 9.50)
+print('======================')
+print(  'LISTAGEM DE PREÇOS')
+print('======================')
+print(f'{listagem[0]}.........................R$  {listagem[1]:.2f}')
+print(f'{listagem[2]}.........................R$  {listagem[3]:.2f}')
+print(f'{listagem[4]}.........................R$  {listagem[5]:.2f}')
